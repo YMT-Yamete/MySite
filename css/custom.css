@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Sono-Bold;
+    src: url(../fonts/Sono_Monospace-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Sono-Regular;
+    src: url(../fonts/Sono-Regular.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #252525;
+}
+
+.logo {
+    width: 25%;
+}
+
+.nav-link {
+    color: #B0B0B0;
+    font-family: Sono-Regular;
+}
+
+.nav-item>a:hover {
+    color: #FF2B2B;
+}
+
+.nav-link-active {
+    color: #FF2B2B
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: lightgreen;
+}
+
+.myImg {
+    border-color: #FF2B2B;
+    border-radius: 100%;
+    width: 70%;
+}
+
+.introText {
+    font-family: Sono-Bold;
+    color: white;
+    font-size: 30px;
+}
+
+.sectionHeader {
+    font-family: Sono-Bold;
+    color: white;
+    font-size: 30px;
+}
+
+.redText {
+    color: #FF2B2B;
+}
+
+.myRole {
+    font-family: Sono-Regular;
+    font-size: 20px;
+    color: white;
+}
+
+.defaultText {
+    font-family: Sono-Regular;
+    color: white;
+    font-size: 18px;
+}
+
+#more {
+    display: none;
+}
+
+.copyRightText {
+    margin-top: 100px;
+}
+
+.cardImg {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    background-color: #343434  ;
+}
+
+.card-title {
+    color: white;
+    font-family: Sono-Regular;
+}
+
+.card-text {
+    color: white;
+    font-family: Sono-Regular;
+}
+
+.text-bg-mytheme {
+    background-color: #FF2B2B;
+}
+
+.projectLink {
+    color: white;
+}
+
+.custom-shape-divider-bottom-1670485477 {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1670485477 svg {
+    position: relative;
+    display: block;
+    width: calc(152% + 1.3px);
+    height: 138px;
+}
+
+.custom-shape-divider-bottom-1670485477 .shape-fill {
+    fill: #FF2B2B;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav {
+        margin-left: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .homePageBody {
+        background: #252525;
+    }
+}
+
