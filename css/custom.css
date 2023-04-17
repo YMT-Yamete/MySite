@@ -15,7 +15,7 @@ html {
 body {
     background: #252525;
     overflow-x: hidden;
-    position:relative;
+    position: relative;
 }
 
 .logo {
@@ -42,7 +42,9 @@ body {
 .myImg {
     border-color: #FF2B2B;
     border-radius: 100%;
-    width: 70%;
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
 }
 
 .introText {
@@ -88,7 +90,7 @@ body {
 }
 
 .card {
-    background-color: #343434  ;
+    background-color: #343434;
 }
 
 .card-title {
@@ -130,6 +132,24 @@ body {
     fill: #FF2B2B;
 }
 
+.glow {
+    color: #FF2B2B;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #808080, 0 0 4px #808080, 0 0 5px #808080, 0 0 6px #808080, 0 0 7px #808080;
+    }
+
+    to {
+        text-shadow: 0 0 1px #808080, 0 0 2px #808080, 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #fff, 0 0 6px #fff, 0 0 7px #fff;
+    }
+}
+
 @media only screen and (min-width: 992px) {
     .navbar-nav {
         margin-left: 100%;
@@ -141,4 +161,3 @@ body {
         background: #252525;
     }
 }
-
